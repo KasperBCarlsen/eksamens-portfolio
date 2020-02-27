@@ -5,7 +5,7 @@
  Author:       Kasper Carlsen
  Author URI:   https://kaspercarlsen.dk
  Template:     volos-wp
- Version:      1.3.0
+ Version:      1.4.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -28,5 +28,13 @@ elementor-widget-image .elementor-image img {
 @media only screen and (min-width: 600px) {
   #toggle {
     margin-left: 3rem;
+}
+}
+
+
+/* Samme som overstående, bare til laptop format.*/
+@media only screen and (min-width: 1200px) {
+  #toggle {
+    margin-left: 1.6rem;
 }
 }

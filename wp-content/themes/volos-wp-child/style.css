@@ -5,7 +5,7 @@
  Author:       Kasper Carlsen
  Author URI:   https://kaspercarlsen.dk
  Template:     volos-wp
- Version:      1.5.0
+ Version:      1.6.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -43,4 +43,10 @@ elementor-widget-image .elementor-image img {
 /* Har ændret Burgermenu'ens globale farve til den lyseblå jeg også bruger andre steder. */
 .ccb-css #toggle:before, .ccb-css #toggle:after, .ccb-css #toggle .menu-line, .ccb-css .pagination-div:after, .ccb-css .portfolio-cat:before, .ccb-css .owl-theme .owl-dots .owl-dot span, .ccb-css .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #90d4f7;
+}
+
+
+/* Har ændret en af farver i midten af menu'en til hvid, så det giver lidt mere kontrast og er lidt forskellige blandet som resten af sidens farvekontraster. */
+#toggle:after, .ccb-css #toggle .menu-line, .ccb-css .pagination-div:after, .ccb-css .portfolio-cat:before, .ccb-css .owl-theme .owl-dots .owl-dot span, .ccb-css .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fff;
 }

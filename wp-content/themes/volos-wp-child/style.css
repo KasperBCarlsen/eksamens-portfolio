@@ -5,7 +5,7 @@
  Author:       Kasper Carlsen
  Author URI:   https://kaspercarlsen.dk
  Template:     volos-wp
- Version:      1.6.0
+ Version:      1.7.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -49,4 +49,10 @@ elementor-widget-image .elementor-image img {
 /* Har ændret en af farver i midten af menu'en til hvid, så det giver lidt mere kontrast og er lidt forskellige blandet som resten af sidens farvekontraster. */
 #toggle:after, .ccb-css #toggle .menu-line, .ccb-css .pagination-div:after, .ccb-css .portfolio-cat:before, .ccb-css .owl-theme .owl-dots .owl-dot span, .ccb-css .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #fff;
+}
+
+
+/* Har lavet om på farven der beskriver Portfolio overskriften og den farver der også skifter ved hover nede ved resume. */
+.ccb-css .total-pages-num, .ccb-css .comment-date, .ccb-css .archive-title h1, .ccb-css li.timeline-event:hover, .ccb-css .category-filter-list, .ccb-css .portfolio-text, .ccb-css .portfolio-cat {
+    color: #90d4f7;
 }
